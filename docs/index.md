@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+MkDocs
+======
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Project documentation with&nbsp;Markdown.
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+MkDocs is a __fast__, __simple__ and __downright gorgeous__ static site
+generator that's geared towards building project documentation. Documentation
+source files are written in Markdown, and configured with a single YAML
+configuration file. Start by reading the [introductory tutorial], then check the
+[User Guide] for more information.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[introductory tutorial]: getting-started.md
+[User Guide]: user-guide/README.md
