@@ -1,8 +1,15 @@
+---  # mkdocs.yml
 site_name: My Docs
 
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - User Guide: user-guide/
+  - Developer Guide: dev-guide/
+  - About:
+      - Release Notes: about/release-notes.md
+      - Contributing: about/contributing.md
+      - License: about/license.md
 
 extra_css:
   - css/extra.css
@@ -23,3 +30,4 @@ markdown_extensions:
       repo: mkdocs
   - mkdocs-click
 
+...
